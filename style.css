@@ -1,0 +1,52 @@
+@font-face {
+    src: url(fonts/Painting_With_Chocolate.ttf);
+    font-family: nos;
+}
+@font-face {
+    src: url(fonts/IBMPlexMono-Bold.ttf);
+    font-family: lmee;
+}
+
+.paragraph {
+    font-size: 70px;
+    line-height: 50px;
+    font-family: nos;
+}
+
+.p {
+
+    font-size: 17px;
+    line-height: 42px;
+    font-family: lmee;
+}
+
+.button {
+    background-color: #272727c0;
+    border: none;
+    color: white;
+    padding: 6px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button1 {border-radius: 10px;}
+
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a {
+    color: white;
+  }
+  a:visited {
+    color: white;
+  }
+  a:hover, a:active, a:focus {
+    color: white;
+  }
