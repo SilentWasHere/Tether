@@ -50,3 +50,130 @@
   a:hover, a:active, a:focus {
     color: white;
   }
+.banner h3{
+  font-size: 3.6rem;
+  color: #fff;
+}
+.toptext{
+  font-size: 40px;
+  opacity: 1;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-family: nos; 
+}
+.box{
+  font-size: 15px;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-family: lmee; 
+}
+.b1{
+  animation: ani1 13s infinite;
+}
+.b2{
+  animation: ani2 13s infinite;
+}
+.b3{
+  animation: ani3 13s infinite;
+}
+.b4{
+  animation: ani4 13s infinite;
+}
+.b5{
+  animation: ani5 13s infinite;
+}
+@keyframes ani1{
+  0%{
+    opacity: 0;
+  }
+  10%{
+    opacity: 1;
+  }
+  20%{
+    opacity: 0;
+  }
+}
+@keyframes ani2{
+  20%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 1;
+  }
+  40%{
+    opacity: 0;
+  }
+}
+@keyframes ani3{
+  40%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  60%{
+    opacity: 0;
+  }
+}
+@keyframes ani4{
+  60%{
+    opacity: 0;
+  }
+  70%{
+    opacity: 1;
+  }
+  80%{
+    opacity: 0;
+  }
+}
+@keyframes ani5{
+  80%{
+    opacity: 0;
+  }
+  90%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+.button {
+  display: flex;
+  height: 50px;
+  padding: 0;
+  background: #272727c0;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.button:hover {
+  background: #333333;
+}
+
+.button:active {
+  background: #272727c0;
+}
+
+.button__text,
+.button__icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: #fff;
+  height: 100%;
+}
+
+.button__icon {
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.08);
+}
